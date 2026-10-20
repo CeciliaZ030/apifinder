@@ -154,7 +154,7 @@ We welcome contributions! Please read our [Contributing Guide](CONTRIBUTING.md) 
 
 | API | Description | Auth | CORS | Type | Docs |
 |-----|-------------|------|------|------|------|
-| [Aomi Task Endpoint (Arc Testnet)](https://arc-canteen.aomi.dev/execution-kit) | Wallet-signed transaction preparation with separately paid artifacts; Arc Testnet preview | `EIP-712` | Yes | Paid | [Docs](https://github.com/aomi-labs/arc-canteen/tree/main/packages/task-client) |
+| [Aomi Task Endpoint (Arc Mainnet staging)](https://api-staging.aomi.dev/v1/task/build) | Two-stage Task API: 0.01 USDC preparation, then 3% of simulated outflow for an immutable bundle | `x402` | Partial | Paid | [Docs](https://api-staging.aomi.dev/v1/task/openapi.json) |
 | [CoinGecko](https://www.coingecko.com) | Cryptocurrency prices, market data, and exchanges | No | Yes | Free | [Docs](https://www.coingecko.com/en/api/documentation) |
 | [CoinMarketCap](https://coinmarketcap.com) | Cryptocurrency market cap rankings and data | `apiKey` | Yes | Freemium | [Docs](https://coinmarketcap.com/api/documentation/v1/) |
 | [Etherscan](https://etherscan.io) | Ethereum blockchain explorer and analytics | `apiKey` | Yes | Freemium | [Docs](https://docs.etherscan.io/) |
