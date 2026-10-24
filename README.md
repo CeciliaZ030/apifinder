@@ -154,7 +154,7 @@ We welcome contributions! Please read our [Contributing Guide](CONTRIBUTING.md) 
 
 | API | Description | Auth | CORS | Type | Docs |
 |-----|-------------|------|------|------|------|
-| [Aomi Task API (Arc Mainnet)](https://api.aomi.dev/v1/task/build) | x402 simulation: 0.01 USDC preparation, free status, then separately quoted unsigned result at 3% of simulated gross outgoing USDC | `x402` | Partial | Paid | [Docs](https://api.aomi.dev/v1/task/openapi.json) |
+| [Aomi Labs Task API (Arc Mainnet)](https://api.aomi.dev/v1/task/build) | Aomi Labs' execution harness lets agents inspect a simulated action before buying unsigned transactions: 0.01 USDC x402 preparation, free status and signed preview, then a separate retrieval purchase at 3% of simulated gross outgoing USDC (free for zero outflow). The buyer's wallet signs and broadcasts. | `x402` | Partial | Paid | [OpenAPI](https://api.aomi.dev/v1/task/openapi.json) |
 | [CoinGecko](https://www.coingecko.com) | Cryptocurrency prices, market data, and exchanges | No | Yes | Free | [Docs](https://www.coingecko.com/en/api/documentation) |
 | [CoinMarketCap](https://coinmarketcap.com) | Cryptocurrency market cap rankings and data | `apiKey` | Yes | Freemium | [Docs](https://coinmarketcap.com/api/documentation/v1/) |
 | [Etherscan](https://etherscan.io) | Ethereum blockchain explorer and analytics | `apiKey` | Yes | Freemium | [Docs](https://docs.etherscan.io/) |
